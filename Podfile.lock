@@ -1,0 +1,18 @@
+PODS:
+  - iCarousel (1.8.3)
+  - SwiftSpinner (1.1.0)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - iCarousel
+  - SwiftSpinner
+  - Toast-Swift
+
+SPEC CHECKSUMS:
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: bafa84ef9dad2085ea7983714fe63b71ab232b77
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  RoomPainter
+
+  Created by keisyrzk on 27.12.2016.
+  Copyright © 2016 keisyrzk. All rights reserved.
+*/
+
+
+// MainMenu //
+
+"_paintIt" = "Paint it!";
+"_myColors" = "My colors";
+"_defaultColors" = "Default colors";
+"_gallery" = "Gallery";
+"_settings" = "Settings";
+
+
+// ColorWheelAlert //
+
+"_saveButton" = "SAVE";
+"_cancelButton" = "cancel";
+"_colorNamePlaceholder" = "Color name";
+
+
+// Settings //
+
+"_settingsPaintingMode" = "PAINTING MODE";
+"_settingsColorFillStyle" = "COLOR FILL STYLE";
+"_settingsBrushSize" = "BRUSH SIZE";
+
+
+// MainNavigationContainer //
+
+"_doOverrideExistingImage" = "This photo aleady exist.";
+"_override" = "Override";
+"_makeCopy" = "Make copy";
+"_cancelAction" = "Cancel";
+"_save" = "Save";
+"_reset" = "Reset";
+"_camera" = "Camera";
+"_browse" = "Browse";
+"_colorWheel" = "Wheel";
+"_saveInRoll" = "Save in roll";
+"_share" = "Share";
+"_emailShareSent" = "Email has been sent";
+"_emailShareSentError" = "Email cannot be sent";
+"_photoSavedInRoll" = "Saved in camera roll";
+
+
+// AdjSlider //
+
+"_edgesSliderLabel" = "Edges";
+"_tresholdSliderLabel" = "Treshold";
+
+
+// APP //
+
+"_processing" = "Processing ...";
+"_landscapePhotoTitle" = "For the best experience use photo in landscape mode";
+"_landscapePhotoSubtitle" = "tap to continue";

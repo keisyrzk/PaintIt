@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gallery-->
+        <scene sceneID="ils-P0-PyY">
+            <objects>
+                <viewController storyboardIdentifier="Gallery" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hDP-2E-OUX" customClass="Gallery" customModule="PaintIt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gR9-fs-tak"/>
+                        <viewControllerLayoutGuide type="bottom" id="c7u-Pp-Aky"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KKv-1d-7Ic">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSB-at-24K" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="70" width="375" height="547"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zSB-at-24K" firstAttribute="leading" secondItem="KKv-1d-7Ic" secondAttribute="leading" id="0SG-QP-cnk"/>
+                            <constraint firstItem="zSB-at-24K" firstAttribute="top" secondItem="gR9-fs-tak" secondAttribute="bottom" constant="50" id="F54-mC-zbz"/>
+                            <constraint firstAttribute="trailing" secondItem="zSB-at-24K" secondAttribute="trailing" id="Lqo-YB-vPd"/>
+                            <constraint firstItem="c7u-Pp-Aky" firstAttribute="top" secondItem="zSB-at-24K" secondAttribute="bottom" constant="50" id="Txg-eW-na5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carousel" destination="zSB-at-24K" id="Ffv-It-A97"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c2v-Pu-qg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="60.719640179910051"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpontimeActionAlertView" customModule="PaintIt" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController nibName="SpontimeActionAlertView" id="u8T-9C-IyI" customClass="ColorWheelAlert" customModule="PaintIt" customModuleProvider="target">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="AYb-Sg-XgZ"/>
+                <viewControllerLayoutGuide type="bottom" id="NfD-Ek-6aH"/>
+            </layoutGuides>
+            <view key="view" opaque="NO" contentMode="scaleToFill" id="xkd-G4-yxO">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2z-Os-0uI">
+                        <rect key="frame" x="16" y="99" width="288" height="370"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colorWheel" translatesAutoresizingMaskIntoConstraints="NO" id="UDa-be-56t">
+                                <rect key="frame" x="8" y="8" width="272" height="272"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UDa-be-56t" secondAttribute="height" multiplier="1:1" id="gWD-2t-bEU"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Color name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2HO-kC-jF3">
+                                <rect key="frame" x="8" y="300" width="272" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Kna-HM-QXM"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2HO-kC-jF3" secondAttribute="trailing" constant="8" id="7Ep-Jj-sqG"/>
+                            <constraint firstAttribute="bottom" secondItem="2HO-kC-jF3" secondAttribute="bottom" constant="40" id="CiN-u0-tQd"/>
+                            <constraint firstItem="UDa-be-56t" firstAttribute="centerX" secondItem="I2z-Os-0uI" secondAttribute="centerX" id="iDU-lO-U8k"/>
+                            <constraint firstItem="UDa-be-56t" firstAttribute="top" secondItem="I2z-Os-0uI" secondAttribute="top" constant="8" id="mAl-7m-EX0"/>
+                            <constraint firstAttribute="height" constant="370" id="qwa-xV-brc"/>
+                            <constraint firstAttribute="width" constant="288" id="uAZ-Lc-CEV"/>
+                            <constraint firstItem="2HO-kC-jF3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="UDa-be-56t" secondAttribute="bottom" constant="20" id="uxB-AF-nLg"/>
+                            <constraint firstItem="UDa-be-56t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="I2z-Os-0uI" secondAttribute="leading" constant="8" id="wvX-FJ-FzA"/>
+                            <constraint firstItem="2HO-kC-jF3" firstAttribute="leading" secondItem="I2z-Os-0uI" secondAttribute="leading" constant="8" id="xZe-Ud-lfI"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UDa-be-56t" secondAttribute="trailing" constant="8" id="yT0-YX-AOf"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snc-eq-t24" customClass="Button3D" customModule="PaintIt" customModuleProvider="target">
+                        <rect key="frame" x="110" y="450" width="100" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="91v-AO-SSK"/>
+                            <constraint firstAttribute="width" constant="100" id="9Y9-gd-d3t"/>
+                        </constraints>
+                        <state key="normal" title="SAVE"/>
+                        <connections>
+                            <action selector="saveButtonAction:" destination="u8T-9C-IyI" eventType="touchUpInside" id="bcM-T7-u5N"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="snc-eq-t24" firstAttribute="top" secondItem="I2z-Os-0uI" secondAttribute="bottom" constant="-19" id="LBQ-zk-9UJ"/>
+                    <constraint firstItem="snc-eq-t24" firstAttribute="centerX" secondItem="xkd-G4-yxO" secondAttribute="centerX" id="NGh-gV-f1C"/>
+                    <constraint firstItem="I2z-Os-0uI" firstAttribute="centerX" secondItem="xkd-G4-yxO" secondAttribute="centerX" id="XEW-Ps-UfZ"/>
+                    <constraint firstItem="I2z-Os-0uI" firstAttribute="centerY" secondItem="xkd-G4-yxO" secondAttribute="centerY" id="rd5-Po-KGd"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="centerView" destination="I2z-Os-0uI" id="gDU-T6-zIm"/>
+                <outlet property="centerViewHeight" destination="qwa-xV-brc" id="L3y-Iu-r4j"/>
+                <outlet property="centerViewWidth" destination="uAZ-Lc-CEV" id="44V-gM-jcM"/>
+                <outlet property="colorNameTextField" destination="2HO-kC-jF3" id="DOp-aS-Q45"/>
+                <outlet property="colorWheel" destination="UDa-be-56t" id="xLb-dx-ckX"/>
+                <outlet property="saveButton" destination="snc-eq-t24" id="FdD-GD-Clf"/>
+            </connections>
+            <point key="canvasLocation" x="-426" y="54"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="colorWheel" width="730" height="730"/>
+    </resources>
+</document>

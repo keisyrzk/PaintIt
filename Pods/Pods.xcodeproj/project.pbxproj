@@ -1,0 +1,1199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0517D2C7FFD87951B97FDB88F34447C0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC9365E3528A5537EF95D490CA8D5A /* Toast.swift */; };
+		078E599971A7805F465613CF32427EED /* Pods-PaintItUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A678713F47E2BEEBB664D091AFE14 /* Pods-PaintItUITests-dummy.m */; };
+		0977809E66A4849E85191A2FD7BB1A90 /* Pods-PaintItTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723662C53C9978579662CCA409595B3A /* Pods-PaintItTests-dummy.m */; };
+		0B8D8A4315A105D607218C0A35A4B192 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E432E79B0118EAF80634B30E5B4C8 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D4A6A01D317A9DB13893247C1DA7606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		208E871A651F903D900B0010E4DE829F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		21D73299581075FB7368DA9FDAD8DAA6 /* iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8551844636A659175A804E1D4D56DEB0 /* iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A1616BC479B99E859FD2BF1D12216C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		3476B60A665155597BB3D373723E0FA2 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802DECB1A11D8EA9A641F909205D95D3 /* Toast-Swift-dummy.m */; };
+		456A27C509A8B84ECFF76455EC54A8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		4C52249164807D02AC6F95242E38E374 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A13E8B51003D8960D8CDA07BDE7AE5E /* SwiftSpinner-dummy.m */; };
+		52CF83859EC389B631F88D564DF4703C /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C6B33413ACD62D65E37A3FE4043E1A /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E7D01EDE4A5F0FDAE16678E78DA0B0 /* Pods-PaintItTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5AE3E35ACE1669A3B98E2D2BEB3D74 /* Pods-PaintItTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C4986A33EE0D75E3B19E605E185E998 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FF9A1DAA753C378A123119E9F06F6B /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		820ADABF3278A67DC71CBD75DFB2AE6F /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1448C67711A076C50C41F3B05747C55 /* iCarousel-dummy.m */; };
+		822E8BDF4DAF6F6CE1D0E832441B9468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		86308824DC345DE25B651B513C6C3D74 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0D376F886C8C1C027F01008BAA2BA9 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9554CB669298C9DB2989281EC51E22DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		A12BA23AB40510B3E3E30A6F38306D5C /* Pods-PaintItUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5AF79BF7D88C96C1E6EE00371948AD /* Pods-PaintItUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92B05E170ECBEA30001C40446A1DF18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		AE0D284F0B5630419C727E8BDCC9159B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		CC00DFD5741BA0D3AC81C9329AB9C6F9 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BFEA1162AB3EA861AB9FB15568212E /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68BEF9382A1978F9183BB572F37234F /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057AE6985AF315DE44887D609D81057 /* SwiftSpinner.swift */; };
+		E6D3AE5F52D36C296AAC90D1B27EB316 /* Pods-PaintIt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9034FAFDE79917D58A39719B4FD531FC /* Pods-PaintIt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF96DDBBBDF41CB87C1CDE8A3074C661 /* Pods-PaintIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA3AFCB46906F86ABB49D0533A0C08 /* Pods-PaintIt-dummy.m */; };
+		F464BA8DCD2A901B1569358B1894D2DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1927EE9824A230F3005315210A61AFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1D3F707C23CEF4B3372A370966679B;
+			remoteInfo = SwiftSpinner;
+		};
+		4139E65F602EE7DC6E165BE50F231145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B25006BB0F2FDD67AAA9C7A81C8B8B;
+			remoteInfo = "Toast-Swift";
+		};
+		F1EC9852BE8DDCCC4FFEFE20BFD4A211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D8C363B343A0778AE6633D70E11749;
+			remoteInfo = iCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057AE6985AF315DE44887D609D81057 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		009A51E1918E479F40EB12F9340E05AD /* Pods-PaintItUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintItUITests.release.xcconfig"; sourceTree = "<group>"; };
+		02D543087F23EC41F33E39387574A09F /* Pods-PaintIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintIt.release.xcconfig"; sourceTree = "<group>"; };
+		12EA1A197D2F29491DEFCE01B0196425 /* Pods-PaintItUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaintItUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16EC9365E3528A5537EF95D490CA8D5A /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		1F5AE3E35ACE1669A3B98E2D2BEB3D74 /* Pods-PaintItTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaintItTests-umbrella.h"; sourceTree = "<group>"; };
+		2A13E8B51003D8960D8CDA07BDE7AE5E /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		2DC8304862B1DEC7D94DCD952629CEA3 /* Pods-PaintIt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintIt-frameworks.sh"; sourceTree = "<group>"; };
+		361635CADF2618CC826DEFE54AAC68DB /* Pods-PaintItTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaintItTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		363E99002E2A5B55940E0EE10795FEEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7D541D7E6B4CCACDD3EBF3AB1938CB /* Pods-PaintItTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintItTests-frameworks.sh"; sourceTree = "<group>"; };
+		3F4EB882317CDEDE4DA94A5791510732 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCarousel.framework; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		424511F18B0843A21657256ED3C815E4 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		4350B385EC67967BDA820F388F978E22 /* Pods-PaintItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintItUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51C6B33413ACD62D65E37A3FE4043E1A /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		558B44D6C200CF3894F4BD953EDA0D70 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		592036E13DDF0E79D71DB40F0EA17705 /* Pods-PaintItUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintItUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A4D756A7FD702C6DB1274B43D892A67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C5F1A1C50F761965AE5F4FB63AA596E /* Pods-PaintItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E2780DFB718ACE937A18748AB90F22B /* Pods-PaintIt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaintIt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F0D376F886C8C1C027F01008BAA2BA9 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		6A76C87D894FE4DE9E11DED1992FCC5D /* iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iCarousel.modulemap; sourceTree = "<group>"; };
+		6B4517BDBBBECE9D036E3A2044838E0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEB43C7B7E049B2CD3B77DF9093D6B9 /* Pods-PaintItTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PaintItTests.modulemap"; sourceTree = "<group>"; };
+		723662C53C9978579662CCA409595B3A /* Pods-PaintItTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaintItTests-dummy.m"; sourceTree = "<group>"; };
+		802DECB1A11D8EA9A641F909205D95D3 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		81CA3AFCB46906F86ABB49D0533A0C08 /* Pods-PaintIt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaintIt-dummy.m"; sourceTree = "<group>"; };
+		8551844636A659175A804E1D4D56DEB0 /* iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-umbrella.h"; sourceTree = "<group>"; };
+		85FF9A1DAA753C378A123119E9F06F6B /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		868764D51EB7E35B1727C114F90D752B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893E8C9996153EFCD0B318C8D4F7366A /* Pods-PaintIt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintIt-acknowledgements.plist"; sourceTree = "<group>"; };
+		9034FAFDE79917D58A39719B4FD531FC /* Pods-PaintIt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaintIt-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AC79B89221154FB596B1B09E12309C4 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		9B13C504184577AEA15E3E6BDCE3C8A5 /* Pods_PaintIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaintIt.framework; path = "Pods-PaintIt.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5AF79BF7D88C96C1E6EE00371948AD /* Pods-PaintItUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaintItUITests-umbrella.h"; sourceTree = "<group>"; };
+		A1448C67711A076C50C41F3B05747C55 /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
+		A54E432E79B0118EAF80634B30E5B4C8 /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		A5AD2E96B87892A4AA14AFF0D27633A7 /* Pods-PaintIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintIt.debug.xcconfig"; sourceTree = "<group>"; };
+		AA45119A017D051403C58616660BB0F4 /* Pods_PaintItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaintItTests.framework; path = "Pods-PaintItTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26C3C2AAA0A7F887A912F7ACEA86201 /* Pods-PaintItUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PaintItUITests.modulemap"; sourceTree = "<group>"; };
+		B271EC0A571D402F77D30669B3699610 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		B3234BF4E810E109DF188347D6C1B48F /* Pods-PaintIt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintIt-resources.sh"; sourceTree = "<group>"; };
+		B63EF6F7B32DE882FE6BED5F40D6E8BE /* Pods_PaintItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaintItUITests.framework; path = "Pods-PaintItUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB002131557C3610ABFEC49347024E22 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		C0BFEA1162AB3EA861AB9FB15568212E /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		C710BCB79F256B5622E5EE9223E71D6D /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+		C774A92ECCB89F2823C8A174A4D177AC /* Pods-PaintItTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintItTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C82918FBDB30018601550B4729007212 /* Pods-PaintItTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintItTests-resources.sh"; sourceTree = "<group>"; };
+		C848E967D6EF20012C13A11809342F1D /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		CB37A9EA19D3C0766D2DE57090BE576E /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD21C51C28C5754A8AEC2849F667C1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C339E77F13F4B37319921E8E3EB128 /* Pods-PaintIt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PaintIt.modulemap"; sourceTree = "<group>"; };
+		DF357B104E7C63CE210FAB180F105C12 /* Pods-PaintItUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintItUITests-resources.sh"; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E7C2F0ED09DA0C2A05CD51D68852ADD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E8B3796FEAEB99D48F416B86F24F62 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECDD59441D04A8D1652B0042362276B9 /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		EDF6B125BDC47C14CABC8DDF0BA26FA0 /* Pods-PaintItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintItTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4C4D88D58E052CDE97A822C375E5908 /* Pods-PaintItUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintItUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F54A678713F47E2BEEBB664D091AFE14 /* Pods-PaintItUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaintItUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D04597511A3FD872C77FE33DB03FD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456A27C509A8B84ECFF76455EC54A8B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E37537DC33717F9ADE1157D9BDF8FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464BA8DCD2A901B1569358B1894D2DD /* Foundation.framework in Frameworks */,
+				9554CB669298C9DB2989281EC51E22DB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEA3D65B113C5E68449F4BE88782874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D284F0B5630419C727E8BDCC9159B /* Foundation.framework in Frameworks */,
+				A92B05E170ECBEA30001C40446A1DF18 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7882597C03B7F16D4F423CDBDE49522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A1616BC479B99E859FD2BF1D12216C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB75888BB4B8E63B127B59CA4C20555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4A6A01D317A9DB13893247C1DA7606 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC77C679BC0DA842ED5E44C9F5F4309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822E8BDF4DAF6F6CE1D0E832441B9468 /* Foundation.framework in Frameworks */,
+				208E871A651F903D900B0010E4DE829F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CC9370A5CB4C3E227C728A9AF101F41 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				5F0D376F886C8C1C027F01008BAA2BA9 /* SwiftSpinner.h */,
+				0057AE6985AF315DE44887D609D81057 /* SwiftSpinner.swift */,
+				69DFC5603C0B2CF459B00B3088322C04 /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		4A33CA681AA0C81FADA51DA449DF115D /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				85FF9A1DAA753C378A123119E9F06F6B /* iCarousel.h */,
+				A54E432E79B0118EAF80634B30E5B4C8 /* iCarousel.m */,
+				E3D08B852C2D05556860DCC73069EC4F /* Support Files */,
+			);
+			name = iCarousel;
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		5B0DB5AFDD1EB6F5CB22909AD306EF61 /* Pods-PaintItTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B4517BDBBBECE9D036E3A2044838E0B /* Info.plist */,
+				6BEB43C7B7E049B2CD3B77DF9093D6B9 /* Pods-PaintItTests.modulemap */,
+				361635CADF2618CC826DEFE54AAC68DB /* Pods-PaintItTests-acknowledgements.markdown */,
+				C774A92ECCB89F2823C8A174A4D177AC /* Pods-PaintItTests-acknowledgements.plist */,
+				723662C53C9978579662CCA409595B3A /* Pods-PaintItTests-dummy.m */,
+				3B7D541D7E6B4CCACDD3EBF3AB1938CB /* Pods-PaintItTests-frameworks.sh */,
+				C82918FBDB30018601550B4729007212 /* Pods-PaintItTests-resources.sh */,
+				1F5AE3E35ACE1669A3B98E2D2BEB3D74 /* Pods-PaintItTests-umbrella.h */,
+				5C5F1A1C50F761965AE5F4FB63AA596E /* Pods-PaintItTests.debug.xcconfig */,
+				EDF6B125BDC47C14CABC8DDF0BA26FA0 /* Pods-PaintItTests.release.xcconfig */,
+			);
+			name = "Pods-PaintItTests";
+			path = "Target Support Files/Pods-PaintItTests";
+			sourceTree = "<group>";
+		};
+		69DFC5603C0B2CF459B00B3088322C04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBD21C51C28C5754A8AEC2849F667C1C /* Info.plist */,
+				BB002131557C3610ABFEC49347024E22 /* SwiftSpinner.modulemap */,
+				C848E967D6EF20012C13A11809342F1D /* SwiftSpinner.xcconfig */,
+				2A13E8B51003D8960D8CDA07BDE7AE5E /* SwiftSpinner-dummy.m */,
+				558B44D6C200CF3894F4BD953EDA0D70 /* SwiftSpinner-prefix.pch */,
+				51C6B33413ACD62D65E37A3FE4043E1A /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		6A72459713C16E5CE6F8FE3E95393107 /* Pods-PaintIt */ = {
+			isa = PBXGroup;
+			children = (
+				363E99002E2A5B55940E0EE10795FEEC /* Info.plist */,
+				D2C339E77F13F4B37319921E8E3EB128 /* Pods-PaintIt.modulemap */,
+				5E2780DFB718ACE937A18748AB90F22B /* Pods-PaintIt-acknowledgements.markdown */,
+				893E8C9996153EFCD0B318C8D4F7366A /* Pods-PaintIt-acknowledgements.plist */,
+				81CA3AFCB46906F86ABB49D0533A0C08 /* Pods-PaintIt-dummy.m */,
+				2DC8304862B1DEC7D94DCD952629CEA3 /* Pods-PaintIt-frameworks.sh */,
+				B3234BF4E810E109DF188347D6C1B48F /* Pods-PaintIt-resources.sh */,
+				9034FAFDE79917D58A39719B4FD531FC /* Pods-PaintIt-umbrella.h */,
+				A5AD2E96B87892A4AA14AFF0D27633A7 /* Pods-PaintIt.debug.xcconfig */,
+				02D543087F23EC41F33E39387574A09F /* Pods-PaintIt.release.xcconfig */,
+			);
+			name = "Pods-PaintIt";
+			path = "Target Support Files/Pods-PaintIt";
+			sourceTree = "<group>";
+		};
+		776B857C78AC3C8F56B40B99EEDD5446 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				16EC9365E3528A5537EF95D490CA8D5A /* Toast.swift */,
+				776F1D819E88AF8749F5030376A95BC9 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		776F1D819E88AF8749F5030376A95BC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7C2F0ED09DA0C2A05CD51D68852ADD8 /* Info.plist */,
+				424511F18B0843A21657256ED3C815E4 /* Toast-Swift.modulemap */,
+				9AC79B89221154FB596B1B09E12309C4 /* Toast-Swift.xcconfig */,
+				802DECB1A11D8EA9A641F909205D95D3 /* Toast-Swift-dummy.m */,
+				B271EC0A571D402F77D30669B3699610 /* Toast-Swift-prefix.pch */,
+				C0BFEA1162AB3EA861AB9FB15568212E /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				F641659DD0F517B31BC2099C22B61B4E /* Pods */,
+				BFE8F6AD4DD57B26F608888D0A9C4235 /* Products */,
+				CAD1A4DB5F8685A4497B22D64BCC81B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE8F6AD4DD57B26F608888D0A9C4235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4EB882317CDEDE4DA94A5791510732 /* iCarousel.framework */,
+				9B13C504184577AEA15E3E6BDCE3C8A5 /* Pods_PaintIt.framework */,
+				AA45119A017D051403C58616660BB0F4 /* Pods_PaintItTests.framework */,
+				B63EF6F7B32DE882FE6BED5F40D6E8BE /* Pods_PaintItUITests.framework */,
+				E8E8B3796FEAEB99D48F416B86F24F62 /* SwiftSpinner.framework */,
+				CB37A9EA19D3C0766D2DE57090BE576E /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD1A4DB5F8685A4497B22D64BCC81B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A72459713C16E5CE6F8FE3E95393107 /* Pods-PaintIt */,
+				5B0DB5AFDD1EB6F5CB22909AD306EF61 /* Pods-PaintItTests */,
+				F21CF01681B0185CACE4614BBAC3B5E3 /* Pods-PaintItUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3D08B852C2D05556860DCC73069EC4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A76C87D894FE4DE9E11DED1992FCC5D /* iCarousel.modulemap */,
+				C710BCB79F256B5622E5EE9223E71D6D /* iCarousel.xcconfig */,
+				A1448C67711A076C50C41F3B05747C55 /* iCarousel-dummy.m */,
+				ECDD59441D04A8D1652B0042362276B9 /* iCarousel-prefix.pch */,
+				8551844636A659175A804E1D4D56DEB0 /* iCarousel-umbrella.h */,
+				868764D51EB7E35B1727C114F90D752B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCarousel";
+			sourceTree = "<group>";
+		};
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F21CF01681B0185CACE4614BBAC3B5E3 /* Pods-PaintItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D756A7FD702C6DB1274B43D892A67 /* Info.plist */,
+				B26C3C2AAA0A7F887A912F7ACEA86201 /* Pods-PaintItUITests.modulemap */,
+				12EA1A197D2F29491DEFCE01B0196425 /* Pods-PaintItUITests-acknowledgements.markdown */,
+				592036E13DDF0E79D71DB40F0EA17705 /* Pods-PaintItUITests-acknowledgements.plist */,
+				F54A678713F47E2BEEBB664D091AFE14 /* Pods-PaintItUITests-dummy.m */,
+				F4C4D88D58E052CDE97A822C375E5908 /* Pods-PaintItUITests-frameworks.sh */,
+				DF357B104E7C63CE210FAB180F105C12 /* Pods-PaintItUITests-resources.sh */,
+				9F5AF79BF7D88C96C1E6EE00371948AD /* Pods-PaintItUITests-umbrella.h */,
+				4350B385EC67967BDA820F388F978E22 /* Pods-PaintItUITests.debug.xcconfig */,
+				009A51E1918E479F40EB12F9340E05AD /* Pods-PaintItUITests.release.xcconfig */,
+			);
+			name = "Pods-PaintItUITests";
+			path = "Target Support Files/Pods-PaintItUITests";
+			sourceTree = "<group>";
+		};
+		F641659DD0F517B31BC2099C22B61B4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A33CA681AA0C81FADA51DA449DF115D /* iCarousel */,
+				2CC9370A5CB4C3E227C728A9AF101F41 /* SwiftSpinner */,
+				776B857C78AC3C8F56B40B99EEDD5446 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04478024DE3DF8D62BBBB54EA53C7D56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12BA23AB40510B3E3E30A6F38306D5C /* Pods-PaintItUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B07A76F12D881E8E27A19A213F1F39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CF83859EC389B631F88D564DF4703C /* SwiftSpinner-umbrella.h in Headers */,
+				86308824DC345DE25B651B513C6C3D74 /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB64E7EFBF5E2ACB2A0FD8DD34D7D71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3AE5F52D36C296AAC90D1B27EB316 /* Pods-PaintIt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8337EBAB27E6D68330EBB38E73BE7863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D73299581075FB7368DA9FDAD8DAA6 /* iCarousel-umbrella.h in Headers */,
+				6C4986A33EE0D75E3B19E605E185E998 /* iCarousel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D8526F00B9075199C0020A1A41DD21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E7D01EDE4A5F0FDAE16678E78DA0B0 /* Pods-PaintItTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81BF62BA3662DB863C67B336D7EA266 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC00DFD5741BA0D3AC81C9329AB9C6F9 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C1D3F707C23CEF4B3372A370966679B /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6460FD29ABADDABBF345B8D4F0E26BD /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				1A4922AB23B18A32EF21268B17599D43 /* Sources */,
+				9AEA3D65B113C5E68449F4BE88782874 /* Frameworks */,
+				66B07A76F12D881E8E27A19A213F1F39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = E8E8B3796FEAEB99D48F416B86F24F62 /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78935A10C55BC19C0A81E2FDEADD3F47 /* Pods-PaintIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11532AB55A851E3D059144B24A2AFF21 /* Build configuration list for PBXNativeTarget "Pods-PaintIt" */;
+			buildPhases = (
+				C44BD2C446BE0C86F0962F85283BFDED /* Sources */,
+				0D04597511A3FD872C77FE33DB03FD75 /* Frameworks */,
+				6CB64E7EFBF5E2ACB2A0FD8DD34D7D71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EB776365A1157669281BFF36A82D09 /* PBXTargetDependency */,
+				11BB52AECA736AB62ABA1FA399F15A64 /* PBXTargetDependency */,
+				D315E066D89C342F0AEB13A971A6FE4A /* PBXTargetDependency */,
+			);
+			name = "Pods-PaintIt";
+			productName = "Pods-PaintIt";
+			productReference = 9B13C504184577AEA15E3E6BDCE3C8A5 /* Pods_PaintIt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E7B5FEAB284F4D68F0B5FAA532C3D95 /* Pods-PaintItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17F9C866CC3D001DBAA37811F8109B5 /* Build configuration list for PBXNativeTarget "Pods-PaintItTests" */;
+			buildPhases = (
+				004A26F9A90B74061989388C70B65579 /* Sources */,
+				A7882597C03B7F16D4F423CDBDE49522 /* Frameworks */,
+				87D8526F00B9075199C0020A1A41DD21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PaintItTests";
+			productName = "Pods-PaintItTests";
+			productReference = AA45119A017D051403C58616660BB0F4 /* Pods_PaintItTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3B25006BB0F2FDD67AAA9C7A81C8B8B /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D91CA9D77C039A527451FE956C0FC40 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				63F52280155B222103508EF0319D2012 /* Sources */,
+				4E37537DC33717F9ADE1157D9BDF8FD5 /* Frameworks */,
+				F81BF62BA3662DB863C67B336D7EA266 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = CB37A9EA19D3C0766D2DE57090BE576E /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8D8C363B343A0778AE6633D70E11749 /* iCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC0E4E27715C58E6999DD991FAE23F5 /* Build configuration list for PBXNativeTarget "iCarousel" */;
+			buildPhases = (
+				53D5F91CD7B3A622448775A99188C684 /* Sources */,
+				EFC77C679BC0DA842ED5E44C9F5F4309 /* Frameworks */,
+				8337EBAB27E6D68330EBB38E73BE7863 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarousel;
+			productName = iCarousel;
+			productReference = 3F4EB882317CDEDE4DA94A5791510732 /* iCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2E244D35141C3405EDC1A1F9BE41F79 /* Pods-PaintItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7C3448525E1024D64A6E251BD3421D /* Build configuration list for PBXNativeTarget "Pods-PaintItUITests" */;
+			buildPhases = (
+				04010795336A8BA86CA900207D3FECD5 /* Sources */,
+				ADB75888BB4B8E63B127B59CA4C20555 /* Frameworks */,
+				04478024DE3DF8D62BBBB54EA53C7D56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PaintItUITests";
+			productName = "Pods-PaintItUITests";
+			productReference = B63EF6F7B32DE882FE6BED5F40D6E8BE /* Pods_PaintItUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BFE8F6AD4DD57B26F608888D0A9C4235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8D8C363B343A0778AE6633D70E11749 /* iCarousel */,
+				78935A10C55BC19C0A81E2FDEADD3F47 /* Pods-PaintIt */,
+				9E7B5FEAB284F4D68F0B5FAA532C3D95 /* Pods-PaintItTests */,
+				E2E244D35141C3405EDC1A1F9BE41F79 /* Pods-PaintItUITests */,
+				1C1D3F707C23CEF4B3372A370966679B /* SwiftSpinner */,
+				B3B25006BB0F2FDD67AAA9C7A81C8B8B /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004A26F9A90B74061989388C70B65579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0977809E66A4849E85191A2FD7BB1A90 /* Pods-PaintItTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04010795336A8BA86CA900207D3FECD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078E599971A7805F465613CF32427EED /* Pods-PaintItUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4922AB23B18A32EF21268B17599D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C52249164807D02AC6F95242E38E374 /* SwiftSpinner-dummy.m in Sources */,
+				D68BEF9382A1978F9183BB572F37234F /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D5F91CD7B3A622448775A99188C684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820ADABF3278A67DC71CBD75DFB2AE6F /* iCarousel-dummy.m in Sources */,
+				0B8D8A4315A105D607218C0A35A4B192 /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F52280155B222103508EF0319D2012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476B60A665155597BB3D373723E0FA2 /* Toast-Swift-dummy.m in Sources */,
+				0517D2C7FFD87951B97FDB88F34447C0 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44BD2C446BE0C86F0962F85283BFDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF96DDBBBDF41CB87C1CDE8A3074C661 /* Pods-PaintIt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11BB52AECA736AB62ABA1FA399F15A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B3B25006BB0F2FDD67AAA9C7A81C8B8B /* Toast-Swift */;
+			targetProxy = 4139E65F602EE7DC6E165BE50F231145 /* PBXContainerItemProxy */;
+		};
+		38EB776365A1157669281BFF36A82D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = 1C1D3F707C23CEF4B3372A370966679B /* SwiftSpinner */;
+			targetProxy = 1927EE9824A230F3005315210A61AFE5 /* PBXContainerItemProxy */;
+		};
+		D315E066D89C342F0AEB13A971A6FE4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = B8D8C363B343A0778AE6633D70E11749 /* iCarousel */;
+			targetProxy = F1EC9852BE8DDCCC4FFEFE20BFD4A211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		037DFDE5F9F9781B43DBCDAB49653FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C710BCB79F256B5622E5EE9223E71D6D /* iCarousel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		083CFBF60A8953007D88AB830A0BCB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009A51E1918E479F40EB12F9340E05AD /* Pods-PaintItUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintItUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintItUITests/Pods-PaintItUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaintItUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		129BB2B67285EB07AC0ABFB09889F992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C848E967D6EF20012C13A11809342F1D /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25492D2A28438C61971A3A18053116D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4350B385EC67967BDA820F388F978E22 /* Pods-PaintItUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintItUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintItUITests/Pods-PaintItUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaintItUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		258224861AF3A01727979465741A09A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5F1A1C50F761965AE5F4FB63AA596E /* Pods-PaintItTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintItTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintItTests/Pods-PaintItTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaintItTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42F1AAC1A989383B46D88E07BD2154E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC79B89221154FB596B1B09E12309C4 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DBC29C4DECD6AB6FEDBE3E9133B88C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC79B89221154FB596B1B09E12309C4 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ABE5367563EE3BB6F01E41CB0DFB67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D543087F23EC41F33E39387574A09F /* Pods-PaintIt.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintIt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintIt/Pods-PaintIt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaintIt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FE7E3DCF00418E6CAE63A98DF97595E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF6B125BDC47C14CABC8DDF0BA26FA0 /* Pods-PaintItTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintItTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintItTests/Pods-PaintItTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaintItTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		874238AFA1465AAB082ECE7A201EEB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AD2E96B87892A4AA14AFF0D27633A7 /* Pods-PaintIt.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintIt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintIt/Pods-PaintIt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PaintIt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89D407842BDAABF4B9B3B24961E8700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C710BCB79F256B5622E5EE9223E71D6D /* iCarousel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A76BDE66A6E461A917292C1BC784A6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C848E967D6EF20012C13A11809342F1D /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11532AB55A851E3D059144B24A2AFF21 /* Build configuration list for PBXNativeTarget "Pods-PaintIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874238AFA1465AAB082ECE7A201EEB0E /* Debug */,
+				6ABE5367563EE3BB6F01E41CB0DFB67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D91CA9D77C039A527451FE956C0FC40 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC29C4DECD6AB6FEDBE3E9133B88C0 /* Debug */,
+				42F1AAC1A989383B46D88E07BD2154E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17F9C866CC3D001DBAA37811F8109B5 /* Build configuration list for PBXNativeTarget "Pods-PaintItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258224861AF3A01727979465741A09A8 /* Debug */,
+				6FE7E3DCF00418E6CAE63A98DF97595E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7C3448525E1024D64A6E251BD3421D /* Build configuration list for PBXNativeTarget "Pods-PaintItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25492D2A28438C61971A3A18053116D1 /* Debug */,
+				083CFBF60A8953007D88AB830A0BCB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6460FD29ABADDABBF345B8D4F0E26BD /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129BB2B67285EB07AC0ABFB09889F992 /* Debug */,
+				A76BDE66A6E461A917292C1BC784A6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC0E4E27715C58E6999DD991FAE23F5 /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037DFDE5F9F9781B43DBCDAB49653FD5 /* Debug */,
+				89D407842BDAABF4B9B3B24961E8700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
